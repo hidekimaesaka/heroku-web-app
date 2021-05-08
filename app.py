@@ -8,11 +8,11 @@ cors = CORS(app, resource={r"/*":{"origins": "*"}})
 
 @app.route("/", methods=['GET'])
 def index():
-    return "<h1>Hello World!</h1>"
+    return "hello world"
 
 @app.route("/deploy", methods=['GET'])    
 def deploy():
-    return "<h1>Testando deploy GitHub x Heroku </h1>"
+    return "hello world"
 
 def main():
     port = int(os.environ.get("PORT", 5000))
