@@ -1,2 +1,1 @@
-release: python tests.py
-web: python app.py
+web: python __init__.py
