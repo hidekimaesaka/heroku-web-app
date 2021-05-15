@@ -1,5 +1,51 @@
-#apresentation{
-    color: white;
-    max-width: 50%;
-    text-indent:initial;
+
+.main-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vw 12.5vw;
+}
+
+.name{
+    color: azure;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.apresentation{
+    color: azure;
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-align:left;
+}
+
+.skills{
+    color: azure;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer{
+    color: azure;
+    margin-top: 10%;
+    
+}
+.phrase{
+    font-style: italic;
+    color: azure;
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-align:left;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
