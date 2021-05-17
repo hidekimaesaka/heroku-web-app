@@ -80,13 +80,13 @@ export default function FullWidthTabs() {
           <About/>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Item Two
+          Item Two...
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Item Three
+          Item Three...
         </TabPanel>
         <TabPanel value={value} index={3}>
-          Item Four
+          Item Four...
         </TabPanel>
       </SwipeableViews>
     </div>

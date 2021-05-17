@@ -9,7 +9,7 @@ export default function Projects() {
       <div className="grid-container">
         <div className="slot-1">
           <p className="apresentation">
-          " I’ve always been passionate about the world of technology, I started
+          " &emsp; I’ve always been passionate about the world of technology, I started
             programming in high school where at the same time I decided to
             pursue a developer career, currently studying the third semester of
             Analysis and Systems Development at FATEC-SP, and with a perspective
