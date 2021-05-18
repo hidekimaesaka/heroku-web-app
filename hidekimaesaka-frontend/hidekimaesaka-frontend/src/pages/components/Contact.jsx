@@ -20,7 +20,7 @@ export default function Contact() {
       <a href="https://github.com/hidekimaesaka" target="_blank"  rel="noreferrer">
         <img className="icon" src={githubicon} alt="" />
       </a>
-      <footer className="footer">
+      <footer className="footer-contact">
           <p>
               MAESAKA 	&copy; 
           </p>
