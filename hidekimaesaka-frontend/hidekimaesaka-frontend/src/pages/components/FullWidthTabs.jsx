@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import "../css/FullWidthTabs.css"
 import About from "./About"
+import Contact from "./Contact"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -83,7 +84,7 @@ export default function FullWidthTabs() {
           Item Two...
         </TabPanel>
         <TabPanel value={value} index={2}>
-          Item Three...
+          <Contact/>
         </TabPanel>
         <TabPanel value={value} index={3}>
           Item Four...
