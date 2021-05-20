@@ -32,11 +32,7 @@ export default function Projects() {
           </p>
         </div>
       </div>
-      <footer className="footer">
-          <p>
-              MAESAKA 	&copy; 
-          </p>
-      </footer>
+
     </div>
   );
 }
