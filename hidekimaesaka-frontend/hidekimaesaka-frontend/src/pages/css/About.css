@@ -3,12 +3,14 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+
 }
 
 .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5vw 12.5vw;
+    
 }
 
 .name{

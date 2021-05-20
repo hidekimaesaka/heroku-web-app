@@ -12,13 +12,6 @@
     text-align: center;
 }
 
-.goku-gif{
-    margin-top: 5vw;
-    margin-left: 2vw;
-    width: 13vw;
-    border-radius: 2px;
-}
-
 
 @media only screen and (max-width: 1080px) {
     
@@ -30,12 +23,6 @@
             
         }
 
-        .goku-gif{
-            margin-top: 12vw;
-            margin-left: 2vw;
-            width: 44vw;
-            border-radius: 2px;
-        }
 
 
     }

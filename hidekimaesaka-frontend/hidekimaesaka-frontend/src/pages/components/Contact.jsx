@@ -4,7 +4,6 @@ import whatsappicon from "../assets/whatsappicon.png";
 import instagramicon from "../assets/instagramicon.png";
 import linkedinicon from "../assets/linkedinicon.png";
 import githubicon from "../assets/githubicon.png";
-import gokugif from "../assets/goku.gif"
 
 export default function Contact() {
   return (
@@ -22,7 +21,6 @@ export default function Contact() {
         <img className="icon-contact" src={githubicon} alt="githubicon" />
       </a>
       <br />
-      <img className="goku-gif" src={gokugif} alt="gif" />
     </div>
   );
 }
