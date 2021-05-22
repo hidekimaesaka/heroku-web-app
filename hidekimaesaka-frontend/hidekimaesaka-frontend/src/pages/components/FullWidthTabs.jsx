@@ -11,6 +11,7 @@ import "../css/FullWidthTabs.css"
 import About from "./About"
 import Contact from "./Contact"
 import Music from "./Music"
+import Projects from "./Projects"
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -83,7 +84,7 @@ export default function FullWidthTabs() {
           <About/>
         </TabPanel>
         <TabPanel value={value} index={1}>
-          Item Two...
+          <Projects/>
         </TabPanel>
         <TabPanel value={value} index={2}>
           <Contact/>
