@@ -8,7 +8,7 @@ import githubicon from "../assets/githubicon.png";
 export default function Contact() {
   return (
     <div className="main-container">
-      <a href="https://api.whatsapp.com/send?phone=5511976554986&text=" target="_blank"  rel="noreferrer">
+      <a href="google.com" target="_blank"  rel="noreferrer">
         <img className="icon-contact" src={whatsappicon} alt="whatsappicon" />
       </a>
       <a href="https://www.instagram.com/hideki_msk/" target="_blank"  rel="noreferrer">
