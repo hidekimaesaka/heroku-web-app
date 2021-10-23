@@ -1,19 +1,19 @@
 .typography-heading{
-color:#3d95dd;
+color:#232326;
 }
 
 
 .typography-text{
-    background-color: #13111b;
-    color: azure;
+    background-color: #F0F0F2;
+    color: #232326;
     text-align: left;
 }
 
 .accordion{
-    background-color: #13111b;
+    background-color: #F0F0F2;
     
 }
 
 #panel-header{
-    background-color: #13111b;
+    background-color: #F0F0F2;
 }
