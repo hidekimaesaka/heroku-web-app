@@ -81,6 +81,9 @@
     &.active{
         background-color: $mainColor;
         color: white;
+        span{
+            color: white;
+        }
 
         .hamburger{
             span{
@@ -97,6 +100,7 @@
                 }
             }
         }
+        
     }
 
 }
